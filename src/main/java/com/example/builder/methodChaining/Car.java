@@ -1,7 +1,7 @@
-package com.example.builder.mixed;
+package com.example.builder.methodChaining;
 
 /**
- * Dietmar Code
+ * https://en.wikipedia.org/wiki/Method_chaining
  * pros: minimal setter and getter
  * pros: fluent interface idiom
  * cons: mutable

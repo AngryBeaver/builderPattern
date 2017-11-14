@@ -1,4 +1,4 @@
-package com.example.builder.genericReflection;
+package com.example.builder.genericsReflectionLambda;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Modifier;

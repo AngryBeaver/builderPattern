@@ -1,13 +1,13 @@
-package com.example.builder.mixed;
+package com.example.builder.methodChaining;
 
 import org.junit.Test;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 public class CarTest {
 
     @Test
-    public void mixedUp() throws Exception {
+    public void methodChaining() throws Exception {
         Car car =  new Car()
                 .setColor("red")
                 .setGears(3)

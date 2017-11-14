@@ -1,9 +1,9 @@
-package com.example.builder.genericReflection;
-
-import static com.example.builder.genericReflection.CarFinal.*;
-import static org.junit.Assert.assertEquals;
+package com.example.builder.genericsReflectionLambda;
 
 import org.junit.Test;
+
+import static com.example.builder.genericsReflectionLambda.CarFinal.*;
+import static org.junit.Assert.assertEquals;
 
 public class CarFinalTest {
     @Test

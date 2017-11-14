@@ -4,10 +4,7 @@ import java.util.function.Consumer;
 
 /**
  * https://dkbalachandar.wordpress.com/2017/08/31/java-8-builder-pattern-with-consumer-interface/
- */
-
-/**
- * Dietmar Code
+ *
  * pros: less massive writing for fluent interface
  * pros: immutable
  * cons: less fluent interface idiom

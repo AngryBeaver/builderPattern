@@ -2,6 +2,7 @@ package com.example.builder.bean;
 
 /**
  * http://minborgsjavapot.blogspot.de/2014/08/creating-objects-using-builder-pattern.html
+ *
  * pros: minimal setter and getter
  * cons: non fluent interface idiom
  * cons: mutable

@@ -1,4 +1,4 @@
-package com.example.builder.genericReflection;
+package com.example.builder.genericsReflectionLambda;
 
 import org.springframework.core.ResolvableType;
 
