@@ -16,13 +16,10 @@ public final class InverseLambdaBuilder {
 
     private int autowiredDependencies;
 
-    public static interface Choose extends Close {
+    public static interface Choose extends Close{
         public Choose withPower(final int power);
-
         public Choose withTorque(final int torque);
-
         public Choose withGears(final int gears);
-
         public Choose withColor(final String color);
     }
 
@@ -83,7 +80,7 @@ public final class InverseLambdaBuilder {
         @Override
         public Choose withTorque(int torque) {
             this.torque = torque;
-            return null;
+            return this;
         }
 
         @Override
