@@ -5,6 +5,7 @@ package com.example.builder.reducedDuplicates;
  * pros: fluent interface idiom
  * pros: reduced duplicate fields
  * cons: still massive class
+ * cons: brainfucked
  */
 public final class Car {
 
@@ -13,22 +14,26 @@ public final class Car {
     private int gears;
     private String color;
 
-    private Car() {
-        builder = new Builder(this);
-    }
-
-    private Builder builder;
-
     public static Builder builder() {
         return new Car().builder;
     }
 
-    public class Builder {
+    private Builder builder;
 
-        private Car car;
+    private Car() {
+        builder = new Builder(this);
+    }
+
+    public class Builder {
 
         private Builder(Car car) {
             this.car = car;
+        }
+
+        private Car car;
+
+        public Car build() {
+            return car;
         }
 
         public Builder power(int value) {
@@ -51,9 +56,6 @@ public final class Car {
             return this;
         }
 
-        public Car build() {
-            return car;
-        }
     }
 
     public int getPower() {

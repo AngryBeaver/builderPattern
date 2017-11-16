@@ -5,7 +5,7 @@ package com.example.builder.genericsReflectionLambda;
  * pros: fluent interface idiom
  * pros: minimalistic
  * cons: mutable
- * cons: wtf ???
+ * cons: brainfucked
  */
 public final class CarFinal extends PojoFinal<CarFinal>{
 
